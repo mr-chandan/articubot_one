@@ -1,0 +1,193 @@
+[0.269s] Invoking command in '/home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs -- -j12 -l12
+[0.500s] [  1%] Built target serial_motor_demo_msgs__rosidl_generator_type_description
+[0.511s] [  1%] Built target ament_cmake_python_copy_serial_motor_demo_msgs
+[0.524s] [  3%] Built target serial_motor_demo_msgs__cpp
+[0.659s] [ 24%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[0.685s] [ 33%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[0.700s] [ 42%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[0.701s] [ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[0.701s] [ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.701s] [ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[0.701s] [ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[0.724s] [ 79%] Built target serial_motor_demo_msgs
+[0.748s] [ 81%] Built target serial_motor_demo_msgs__py
+[0.764s] running egg_info
+[0.772s] [ 88%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[0.783s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[0.783s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[0.783s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[0.797s] [ 92%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c
+[0.797s] [ 96%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_c
+[0.800s] [100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c
+[0.847s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[0.848s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[0.871s] [100%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[0.886s] Invoked command in '/home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs -- -j12 -l12
+[0.936s] Invoking command in '/home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs
+[0.948s] -- Install configuration: ""
+[0.994s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[0.994s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.json
+[0.994s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.json
+[0.995s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.json
+[0.995s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[0.995s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[0.995s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[0.995s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.995s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[0.995s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[0.995s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[0.995s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c
+[0.996s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[0.996s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__description.c
+[0.996s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[0.996s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[0.996s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c
+[0.996s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[0.996s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c
+[0.996s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[0.996s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[0.996s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__description.c
+[0.996s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.c
+[0.997s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[0.997s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c
+[0.997s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__description.c
+[0.997s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[0.997s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c
+[0.997s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[0.997s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[0.997s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[1.000s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[1.000s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[1.000s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[1.001s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.001s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[1.001s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[1.001s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[1.001s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[1.001s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[1.001s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[1.001s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[1.001s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[1.002s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c
+[1.002s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[1.002s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c
+[1.002s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[1.002s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[1.002s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c
+[1.002s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.002s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[1.002s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[1.002s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[1.003s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[1.003s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[1.003s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.003s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[1.003s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[1.003s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp
+[1.003s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[1.003s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[1.003s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[1.003s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[1.004s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[1.004s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp
+[1.004s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[1.004s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[1.004s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[1.004s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[1.004s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp
+[1.004s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[1.004s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[1.004s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[1.005s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[1.005s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[1.005s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.005s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[1.005s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/dds_fastrtps
+[1.005s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.005s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.005s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[1.005s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[1.005s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[1.006s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[1.006s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp
+[1.006s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp
+[1.006s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[1.006s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[1.006s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp
+[1.006s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[1.006s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[1.006s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[1.006s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[1.007s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info
+[1.007s] -- Installing: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.007s] -- Installing: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.007s] -- Installing: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[1.007s] -- Installing: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[1.007s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs
+[1.007s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py
+[1.007s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so
+[1.007s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.008s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[1.008s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.008s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.008s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so
+[1.008s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg
+[1.008s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/__init__.py
+[1.008s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[1.008s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[1.008s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[1.008s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[1.008s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[1.009s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[1.053s] Listing '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs'...
+[1.053s] Listing '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg'...
+[1.058s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.058s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so
+[1.059s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so
+[1.059s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[1.060s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[1.060s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[1.060s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[1.060s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[1.060s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[1.061s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[1.061s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[1.061s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[1.061s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[1.061s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[1.061s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[1.062s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[1.062s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[1.062s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[1.062s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[1.062s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[1.062s] -- Installing: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[1.063s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[1.063s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[1.063s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.063s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.063s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.063s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.064s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.064s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[1.064s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.064s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[1.064s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.064s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.065s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.065s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.065s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[1.065s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.065s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[1.065s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.066s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[1.066s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.066s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.066s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.066s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.066s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.066s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.067s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[1.067s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[1.067s] -- Up-to-date: /home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[1.068s] Invoked command in '/home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs
