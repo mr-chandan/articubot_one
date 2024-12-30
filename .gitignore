@@ -1,0 +1,12 @@
+# ROS 2 workspace and build-related files
+build/
+install/
+log/
+colcon.log
+.vscode/
+.idea/
+*.pyc
+*.pyo
+*.swp
+__pycache__/
+.DS_Store
