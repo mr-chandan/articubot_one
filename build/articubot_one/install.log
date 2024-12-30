@@ -1,5 +1,9 @@
 /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one/__init__.py
+/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one/teleop_twist_test_node.py
+/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one/diff_drive_test_node.py
 /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one/__pycache__/__init__.cpython-312.pyc
+/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one/__pycache__/teleop_twist_test_node.cpython-312.pyc
+/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one/__pycache__/diff_drive_test_node.cpython-312.pyc
 /home/brains/Desktop/articubot_one/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
 /home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/package.xml
 /home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/parameters/bridge_parameters.yaml
@@ -11,9 +15,12 @@
 /home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/launch/rsp.launch.py
 /home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
 /home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one-0.0.0-py3.12.egg-info/entry_points.txt
 /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one-0.0.0-py3.12.egg-info/requires.txt
 /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one-0.0.0-py3.12.egg-info/dependency_links.txt
 /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one-0.0.0-py3.12.egg-info/SOURCES.txt
 /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one-0.0.0-py3.12.egg-info/top_level.txt
 /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one-0.0.0-py3.12.egg-info/zip-safe
 /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one-0.0.0-py3.12.egg-info/PKG-INFO
+/home/brains/Desktop/articubot_one/install/articubot_one/lib/articubot_one/diff_drive_test_node
+/home/brains/Desktop/articubot_one/install/articubot_one/lib/articubot_one/teleop_twist_test_node

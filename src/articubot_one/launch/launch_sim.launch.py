@@ -61,12 +61,27 @@ def generate_launch_description():
     )
 
 
+    joint_state_broadcaster_spawner = Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=['joint_broad'],
+    )
+    
+    diff_drive_controller_spawner = Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=['diff_cont'],
+    )
+
+
     LaunchDescriptionObject = LaunchDescription()
 
     LaunchDescriptionObject.add_action(rsp)
     LaunchDescriptionObject.add_action(gazeboLaunch)
     LaunchDescriptionObject.add_action(spawnModelNodeGazebo)
     LaunchDescriptionObject.add_action(start_gazebo_ros_bridge_cmd)
+    LaunchDescriptionObject.add_action(joint_state_broadcaster_spawner)
+    LaunchDescriptionObject.add_action(diff_drive_controller_spawner)
 
     return LaunchDescriptionObject
 

@@ -1,0 +1,271 @@
+[0.088s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.088s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73c2ae09a960>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73c2ae09a660>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73c2ae09a660>>, mixin_verb=('build',))
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.128s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/brains/Desktop/articubot_one'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_python' and name 'articubot_one'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.200s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/brains/Desktop/articubot_one/install
+[0.201s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 358 installed packages in /opt/ros/jazzy
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.003s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brains/Desktop/articubot_one/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brains/Desktop/articubot_one/install/articubot_one', 'merge_install': False, 'path': '/home/brains/Desktop/articubot_one/src/articubot_one', 'symlink_install': False, 'test_result_base': None}
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.004s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/brains/Desktop/articubot_one/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.004s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.004s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/brains/Desktop/articubot_one/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/brains/Desktop/articubot_one/install/serial_motor_demo', 'merge_install': False, 'path': '/home/brains/Desktop/articubot_one/src/serial_motor_demo/serial_motor_demo', 'symlink_install': False, 'test_result_base': None}
+[1.004s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.006s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/brains/Desktop/articubot_one/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[1.006s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/brains/Desktop/articubot_one/src/serial_motor_demo/serial_motor_demo_msgs'
+[1.008s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.013s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brains/Desktop/articubot_one/src/articubot_one' with build type 'ament_python'
+[1.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'ament_prefix_path')
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/hook/ament_prefix_path.ps1'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/hook/ament_prefix_path.dsv'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/hook/ament_prefix_path.sh'
+[1.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brains/Desktop/articubot_one/install/serial_motor_demo:/home/brains/Desktop/articubot_one/install/articubot_one:/opt/ros/jazzy /usr/bin/cmake --build /home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs -- -j12 -l12
+[1.206s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brains/Desktop/articubot_one/src/articubot_one'
+[1.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brains/Desktop/articubot_one/install/serial_motor_demo:/home/brains/Desktop/articubot_one/install/articubot_one:/opt/ros/jazzy /usr/bin/cmake --build /home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs -- -j12 -l12
+[1.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brains/Desktop/articubot_one/install/serial_motor_demo:/home/brains/Desktop/articubot_one/install/articubot_one:/opt/ros/jazzy /usr/bin/cmake --install /home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs
+[1.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[1.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brains/Desktop/articubot_one/install/serial_motor_demo:/home/brains/Desktop/articubot_one/install/articubot_one:/opt/ros/jazzy /usr/bin/cmake --install /home/brains/Desktop/articubot_one/build/serial_motor_demo_msgs
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs' for CMake module files
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs' for CMake config files
+[1.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[1.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[1.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib'
+[1.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/bin'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages'
+[1.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/bin'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[1.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[1.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs' for CMake module files
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs' for CMake config files
+[1.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib'
+[1.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[1.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[1.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[1.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/bin'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages'
+[1.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/bin'
+[1.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[1.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[1.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[1.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[1.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[1.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[1.803s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/brains/Desktop/articubot_one/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[1.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[1.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[1.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[1.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[1.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brains/Desktop/articubot_one/src/articubot_one': PYTHONPATH=/home/brains/Desktop/articubot_one/build/articubot_one/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/articubot_one build --build-base /home/brains/Desktop/articubot_one/build/articubot_one/build install --record /home/brains/Desktop/articubot_one/build/articubot_one/install.log --single-version-externally-managed install_data
+[2.018s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/brains/Desktop/articubot_one/src/serial_motor_demo/serial_motor_demo'
+[2.019s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.019s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/articubot_one' for CMake module files
+[2.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brains/Desktop/articubot_one/src/articubot_one' returned '0': PYTHONPATH=/home/brains/Desktop/articubot_one/build/articubot_one/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/articubot_one build --build-base /home/brains/Desktop/articubot_one/build/articubot_one/build install --record /home/brains/Desktop/articubot_one/build/articubot_one/install.log --single-version-externally-managed install_data
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/articubot_one' for CMake config files
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/articubot_one/lib'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/articubot_one/bin'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages'
+[2.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'pythonpath')
+[2.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/hook/pythonpath.ps1'
+[2.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/hook/pythonpath.dsv'
+[2.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/hook/pythonpath.sh'
+[2.315s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/articubot_one/bin'
+[2.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[2.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/package.ps1'
+[2.315s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/package.dsv'
+[2.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/package.sh'
+[2.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/package.bash'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/package.zsh'
+[2.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brains/Desktop/articubot_one/install/articubot_one/share/colcon-core/packages/articubot_one)
+[2.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/brains/Desktop/articubot_one/src/serial_motor_demo/serial_motor_demo': PYTHONPATH=/home/brains/Desktop/articubot_one/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brains/Desktop/articubot_one/install/serial_motor_demo/lib/python3.12/site-packages:/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/brains/Desktop/articubot_one/install/serial_motor_demo/lib/python3.12/site-packages:/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/brains/Desktop/articubot_one/build/serial_motor_demo/build install --record /home/brains/Desktop/articubot_one/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo' for CMake module files
+[3.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/brains/Desktop/articubot_one/src/serial_motor_demo/serial_motor_demo' returned '0': PYTHONPATH=/home/brains/Desktop/articubot_one/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brains/Desktop/articubot_one/install/serial_motor_demo/lib/python3.12/site-packages:/home/brains/Desktop/articubot_one/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/brains/Desktop/articubot_one/install/serial_motor_demo/lib/python3.12/site-packages:/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/brains/Desktop/articubot_one/build/serial_motor_demo/build install --record /home/brains/Desktop/articubot_one/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed install_data
+[3.096s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo' for CMake config files
+[3.097s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo/lib'
+[3.097s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo/bin'
+[3.097s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[3.097s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo/lib/python3.12/site-packages'
+[3.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[3.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[3.099s] Level 1:colcon.colcon_core.environment:checking '/home/brains/Desktop/articubot_one/install/serial_motor_demo/bin'
+[3.099s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[3.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[3.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[3.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[3.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[3.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[3.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/brains/Desktop/articubot_one/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[3.102s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.102s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.102s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.102s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.169s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.172s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.172s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brains/Desktop/articubot_one/install/local_setup.ps1'
+[3.198s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brains/Desktop/articubot_one/install/_local_setup_util_ps1.py'
+[3.223s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brains/Desktop/articubot_one/install/setup.ps1'
+[3.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brains/Desktop/articubot_one/install/local_setup.sh'
+[3.256s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/brains/Desktop/articubot_one/install/_local_setup_util_sh.py'
+[3.256s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brains/Desktop/articubot_one/install/setup.sh'
+[3.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brains/Desktop/articubot_one/install/local_setup.bash'
+[3.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brains/Desktop/articubot_one/install/setup.bash'
+[3.294s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/brains/Desktop/articubot_one/install/local_setup.zsh'
+[3.307s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/brains/Desktop/articubot_one/install/setup.zsh'

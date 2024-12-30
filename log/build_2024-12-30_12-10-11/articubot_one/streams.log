@@ -1,0 +1,23 @@
+[5.012s] Invoking command in '/home/brains/Desktop/articubot_one/src/articubot_one': PYTHONPATH=/home/brains/Desktop/articubot_one/build/articubot_one/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/articubot_one build --build-base /home/brains/Desktop/articubot_one/build/articubot_one/build install --record /home/brains/Desktop/articubot_one/build/articubot_one/install.log --single-version-externally-managed install_data
+[5.249s] running egg_info
+[5.269s] writing ../../build/articubot_one/articubot_one.egg-info/PKG-INFO
+[5.282s] writing dependency_links to ../../build/articubot_one/articubot_one.egg-info/dependency_links.txt
+[5.282s] writing requirements to ../../build/articubot_one/articubot_one.egg-info/requires.txt
+[5.282s] writing top-level names to ../../build/articubot_one/articubot_one.egg-info/top_level.txt
+[5.330s] reading manifest file '../../build/articubot_one/articubot_one.egg-info/SOURCES.txt'
+[5.331s] writing manifest file '../../build/articubot_one/articubot_one.egg-info/SOURCES.txt'
+[5.341s] running build
+[5.341s] running build_py
+[5.342s] copying articubot_one/diff_drive_test_node.py -> /home/brains/Desktop/articubot_one/build/articubot_one/build/lib/articubot_one
+[5.342s] running install
+[5.347s] running install_lib
+[5.366s] copying /home/brains/Desktop/articubot_one/build/articubot_one/build/lib/articubot_one/diff_drive_test_node.py -> /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one
+[5.367s] byte-compiling /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one/diff_drive_test_node.py to diff_drive_test_node.cpython-312.pyc
+[5.367s] running install_data
+[5.368s] copying config/my_controllers.yaml -> /home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/config
+[5.368s] running install_egg_info
+[5.387s] removing '/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one-0.0.0-py3.12.egg-info' (and everything under it)
+[5.388s] Copying ../../build/articubot_one/articubot_one.egg-info to /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one-0.0.0-py3.12.egg-info
+[5.388s] running install_scripts
+[5.515s] writing list of installed files to '/home/brains/Desktop/articubot_one/build/articubot_one/install.log'
+[5.569s] Invoked command in '/home/brains/Desktop/articubot_one/src/articubot_one' returned '0': PYTHONPATH=/home/brains/Desktop/articubot_one/build/articubot_one/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/articubot_one build --build-base /home/brains/Desktop/articubot_one/build/articubot_one/build install --record /home/brains/Desktop/articubot_one/build/articubot_one/install.log --single-version-externally-managed install_data

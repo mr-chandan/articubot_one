@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/articubot_one/articubot_one.egg-info/PKG-INFO
+writing dependency_links to ../../build/articubot_one/articubot_one.egg-info/dependency_links.txt
+writing requirements to ../../build/articubot_one/articubot_one.egg-info/requires.txt
+writing top-level names to ../../build/articubot_one/articubot_one.egg-info/top_level.txt
+reading manifest file '../../build/articubot_one/articubot_one.egg-info/SOURCES.txt'
+writing manifest file '../../build/articubot_one/articubot_one.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying config/my_controllers.yaml -> /home/brains/Desktop/articubot_one/install/articubot_one/share/articubot_one/config
+running install_egg_info
+removing '/home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/articubot_one/articubot_one.egg-info to /home/brains/Desktop/articubot_one/install/articubot_one/lib/python3.12/site-packages/articubot_one-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/brains/Desktop/articubot_one/build/articubot_one/install.log'

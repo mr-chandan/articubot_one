@@ -25,6 +25,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'diff_drive_test_node = articubot_one.diff_drive_test_node:main',
+            'teleop_twist_test_node = articubot_one.teleop_twist_test_node:main'
         ],
     },
 )

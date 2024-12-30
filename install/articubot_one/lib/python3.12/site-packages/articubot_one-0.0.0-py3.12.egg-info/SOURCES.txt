@@ -4,10 +4,13 @@ setup.py
 ../../build/articubot_one/articubot_one.egg-info/PKG-INFO
 ../../build/articubot_one/articubot_one.egg-info/SOURCES.txt
 ../../build/articubot_one/articubot_one.egg-info/dependency_links.txt
+../../build/articubot_one/articubot_one.egg-info/entry_points.txt
 ../../build/articubot_one/articubot_one.egg-info/requires.txt
 ../../build/articubot_one/articubot_one.egg-info/top_level.txt
 ../../build/articubot_one/articubot_one.egg-info/zip-safe
 articubot_one/__init__.py
+articubot_one/diff_drive_test_node.py
+articubot_one/teleop_twist_test_node.py
 config/my_controllers.yaml
 launch/launch_sim.launch.py
 launch/rsp.launch.py
